@@ -1,0 +1,6 @@
+{
+  "name": "SIPRAMA — Sistem Inventaris Pramuka MAN 11 Jakarta",
+  "description": "Aplikasi Manajemen Inventaris, Pemindaian Barcode, Verifikasi Bukti Foto Ganda, Alarm Pengingat, dan Otomatisasi Surat Resmi Ambalan Khalid bin Walid - Ummu Kultsum Gudep 06.171-06.172 MAN 11 Jakarta.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

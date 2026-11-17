@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F6F1E9;
+    color: #2A1810;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-official-letter,
+  #printable-official-letter * {
+    visibility: visible;
+  }
+  #printable-official-letter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}

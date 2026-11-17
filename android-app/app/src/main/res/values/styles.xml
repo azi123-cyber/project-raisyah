@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Siprama" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">#3B2314</item>
+        <item name="android:windowBackground">#3B2314</item>
+        <item name="android:navigationBarColor">#2A1810</item>
+    </style>
+</resources>
